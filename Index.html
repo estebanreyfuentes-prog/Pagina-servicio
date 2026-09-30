@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PixelLab | Servicios Digitales</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#0b1020;color:#fff}
+.wrap{max-width:1000px;margin:auto;padding:0 20px}nav{display:flex;justify-content:space-between;padding:22px 0}
+.logo{font-size:25px;font-weight:800}.logo span{color:#7c5cff}
+nav a{color:#ddd;text-decoration:none;margin-left:18px}.hero{text-align:center;padding:75px 0}
+.badge{display:inline-block;background:#171e38;padding:8px 14px;border-radius:30px;color:#b9aaff}
+h1{font-size:clamp(42px,8vw,70px);line-height:1.05;margin:18px 0}
+h1 span{color:#7c5cff}.hero p{color:#b9c1dd;font-size:18px;max-width:650px;margin:0 auto 28px}
+.btn{display:inline-block;background:#7c5cff;color:#fff;text-decoration:none;padding:14px 22px;border-radius:12px;font-weight:700}
+section{padding:55px 0}.title{text-align:center;font-size:34px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#121a31;border:1px solid #26304f;border-radius:18px;padding:25px}
+.icon{font-size:32px}.card h3{font-size:22px}.card p{color:#aeb7d2;min-height:55px}.price{font-size:27px;font-weight:800;margin-top:15px}
+.contact{text-align:center;background:#121a31;border-radius:22px;padding:40px}.note{color:#9da7c4}
+footer{text-align:center;color:#7f8aa9;padding:30px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}nav .links{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <div class="logo">Pixel<span>Lab</span></div>
+  <div class="links"><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a></div>
+</nav>
+
+<header class="hero">
+  <div class="badge">Servicios digitales</div>
+  <h1>Tu idea, <span>más profesional.</span></h1>
+  <p>Diseños, páginas web y edición de videos a precios accesibles.</p>
+  <a class="btn" href="#contacto">Cotizar ahora</a>
+</header>
+
+<section id="servicios">
+<h2 class="title">Nuestros servicios</h2>
+<div class="grid">
+<div class="card"><div class="icon">🎨</div><h3>Diseños</h3><p>Posts, historias, portadas y diseños sencillos para redes.</p><div class="price">$5.000 COP</div></div>
+<div class="card"><div class="icon">🌐</div><h3>Páginas web</h3><p>Páginas sencillas y adaptadas para celulares.</p><div class="price">$10.000 COP</div></div>
+<div class="card"><div class="icon">🎬</div><h3>Edición de video</h3><p>Edición de videos cortos para TikTok, Reels y Shorts.</p><div class="price">$10.000 COP</div></div>
+</div>
+</section>
+
+<section id="contacto">
+<div class="contact">
+<h2 class="title">¿Quieres pedir un servicio?</h2>
+<p class="note">Escríbenos por WhatsApp y cuéntanos qué necesitas.</p>
+<a class="btn" href="https://wa.me/573175104615">Hablar por WhatsApp</a>
+<p class="note"></p>
+</div>
+</section>
+
+<footer>© 2026 PixelLab · Servicios digitales</footer>
+</div>
+</body>
+</html>
